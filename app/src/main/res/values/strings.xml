@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">关屏</string>
+    <string name="service_label">关屏 · 一键锁屏服务</string>
+    <string name="tile_label">关屏</string>
+    <string name="accessibility_desc">用于在任意界面一键关闭屏幕（锁屏）。只调用系统的锁屏动作，不读取屏幕内容。</string>
+
+    <string name="status_accessibility_on">无障碍服务：已开启 ✅</string>
+    <string name="status_accessibility_off">无障碍服务：未开启 ⚠️ 需要开启才能关屏</string>
+    <string name="status_dnd_on">静音（勿扰）：已授权 ✅</string>
+    <string name="status_dnd_off">静音（勿扰）：未授权（不授权就只能关屏、不能静音）</string>
+    <string name="status_tip">提示：把「关屏」加到下拉快捷开关里，点一下就锁屏。</string>
+
+    <string name="btn_enable_accessibility">① 开启无障碍服务</string>
+    <string name="btn_grant_dnd">② 授予勿扰权限（用于静音）</string>
+    <string name="btn_lock_now">立即关屏</string>
+    <string name="btn_unmute">恢复声音（关掉勿扰）</string>
+    <string name="opt_mute">关屏时同时静音（切勿扰）</string>
+
+    <string name="toast_no_accessibility">还没开启无障碍服务，无法关屏</string>
+    <string name="toast_locked">已关屏</string>
+    <string name="toast_need_api28">这台手机的系统版本太低，不支持关屏</string>
+    <string name="toast_muted">已切到静音（勿扰）</string>
+</resources>

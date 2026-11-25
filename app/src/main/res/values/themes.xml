@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorAccent">#FF3D5AFE</item>
+        <item name="android:statusBarColor">#FF1E2A3A</item>
+        <item name="android:colorPrimary">#FF1E2A3A</item>
+    </style>
+
+    <color name="ic_launcher_background">#FF1E2A3A</color>
+</resources>
